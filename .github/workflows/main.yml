@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: mdwikira/hello-world-docker-action@v1
+        uses: mdwikira/hello-world-docker-action@v2
         with:
           who-to-greet: 'Estel'
       - name: Get output time
